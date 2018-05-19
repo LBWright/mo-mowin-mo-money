@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 import Invoice from './components/Invoice/Invoice';
+=======
+import { Route, Switch, Redirect } from 'react-router-dom';
+
+>>>>>>> 5dcafba2f5244c869c33e93b325585542767004a
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Switch>
+        {/* <Route path="/battle" component={ComponentNameHERE} /> */}
+      </Switch>
     );
   }
 }
