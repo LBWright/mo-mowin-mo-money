@@ -6,7 +6,9 @@ class Splash extends Component {
     render() {
         return (
             <div className="splash-page">
-                <img src= {require("./header.jpg")} alt='header' />
+                <div className="header-container">
+                    <img src= {require("./header.jpg")} alt='header' />
+                </div>
                 <div className="splash-text">
                     <p>The Neighborhood Mow Down Program began as a pilot 
                     program in October 2013 to help tackle the problem of 
