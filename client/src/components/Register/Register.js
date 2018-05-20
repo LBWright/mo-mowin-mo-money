@@ -7,13 +7,13 @@ class Register extends Component {
         return (
             <React.Fragment className="register">
                 <form className="registration-form" action="register" method="POST">
-                    <h2>Neighborhood Mowdown Application</h2>
+                    <h2>Neighborhood Mow Down Application</h2>
                     <h3>Thank you for your interest in the Neighborhood Mow Down program!</h3>
                     <p>Non-profit organizations with 501(c)(3) and 501(c)(4) status (including
                     Civic Clubs and Super Neighborhoods) are encouraged to apply. Individuals,
                     for-profit business, community development corporations, and political 
                     organizations are not eligible to apply for the program.</p> 
-                    <p>Please allow at least 10 days for your application to be processed.
+                    <p className="lastp">Please allow at least 10 days for your application to be processed.
                     This form is a statement of request and by receiving it the City of 
                     Houston does not commit to transfer property.</p>
                     <label>Select Organization Type</label>
