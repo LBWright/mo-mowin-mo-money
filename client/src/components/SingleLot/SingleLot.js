@@ -15,7 +15,7 @@ class SingleLot extends Component {
                     <Col md={8} className="lotInfo">
                         {/* <LotInfo /> */}
                         <p><span className="bold">Address: </span>151 Georgia St, Houston, TX 77029</p>
-                        <p><span className="bold">Status: </span>Active</p>
+                        <p><span className="bold">Status: </span>Available</p>
                         <p><span className="bold">Super Neighborhood: </span>Clinton Park Tri-Community</p>
                     </Col>
                 </Row>
