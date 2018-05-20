@@ -8,17 +8,17 @@ class Header extends Component {
             <Navbar className="navbar">
               <Navbar.Header>
                 <Navbar.Brand>
-                  <a className="navbar-name" href="#home">Mo Mowin, Mo Money</a>
+                  <a className="navbar-name" href="/">Mo Mowin, Mo Money</a>
                 </Navbar.Brand>
               </Navbar.Header>
               <Nav pullRight>
-                <NavItem eventKey={1} href="#">
+                <NavItem eventKey={1} href="/All">
                   All Lots
                 </NavItem>
-                <NavItem eventKey={2} href="#">
+                <NavItem eventKey={2} href="/Login">
                   Login
                 </NavItem>
-                <NavItem eventKey={3} href="#">
+                <NavItem eventKey={3} href="/Register">
                   Register
                 </NavItem>
               </Nav>
@@ -26,7 +26,8 @@ class Header extends Component {
                 <FormGroup>
                   <FormControl type="text" placeholder="Search Lots" />
                 </FormGroup>{' '}
-                <Button type="submit">Search</Button>
+                {/* Made this into a link to the single lot for the demo AKW */}
+                <a href="/lot"><Button type="submit">Search</Button></a>
               </Navbar.Form>
             </Navbar>
         );

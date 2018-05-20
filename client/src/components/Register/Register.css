@@ -55,8 +55,17 @@
 .registration-form .submit-button {
     letter-spacing: .05em;
     width: 8em;
-    height: 2em;
     position: absolute;
     right: 0;
     margin-bottom: 2em;
+    background-color: #009245;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none !important;
+    border-radius: 4px;
+}
+
+.registration-form .submit-button:hover {
+    background-color: #8CC63F;
 }

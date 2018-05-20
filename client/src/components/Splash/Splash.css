@@ -12,18 +12,36 @@
 }
 
 .splash-img-div h1 {
-    font-size: 5em;
+    font-size: 7em;
     font-weight: 700;
     color: white;
     text-transform: uppercase;
     letter-spacing: .05em;
     font-family: Montserrat, sans-serif;
+    text-align: center;
 }
 
 .splash-text {
-    
+    max-width: 960px;
+    min-width: 400px;
+    margin: auto;
+    width: 80%;
+    padding: 2em;
+    font-size: 18px;
+    line-height: 1.5em
 }
 
-.splash-page h4 {
+.splash-text p {
+    margin-bottom: 1.5em;
+}
+
+.splash-text h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.splash-text h4 {
     font-style: italic;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
