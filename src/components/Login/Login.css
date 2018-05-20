@@ -1,8 +1,16 @@
 .card{
- margin-bottom: 3rem;
+ margin-bottom: 5rem;
 }
 .lotimage {
  width: 20rem;
  height: 20rem;
- margin-left: 1rem;
+ /* margin-left: 1rem; */
+}
+
+.btn-all {
+    width: 300px;
+}
+
+.card-title {
+    margin-bottom: 0;
 }
