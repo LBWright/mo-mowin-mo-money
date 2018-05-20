@@ -1,0 +1,48 @@
+.pageContent {
+    margin: 30px auto 40px auto;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.pageHeader {
+    border-bottom: 1px solid rgb(146, 146, 146);
+    box-shadow: 0 2px 4px -4px rgb(102, 101, 101);
+    margin-bottom: 40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lotInfo {
+    font-size: 18px;
+    padding: 15px;
+}
+
+.btn-primary {
+    background-color: #009245;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: none !important;
+}
+
+.btn-primary:hover {
+    background-color: #8CC63F;
+}
+
+img {
+    width: 100%;
+}
+
+.claimLot {
+    padding: 30px;
+}
+
+.equip {
+    margin-bottom: 25px;
+}
