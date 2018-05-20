@@ -7,13 +7,13 @@
     padding-bottom: 5px;
 }
 
-.navbar Button {
+.navbar .btn {
     background-color: #009245;
     color: white;
     border: none !important;
 }
 
-.navbar a:hover Button {
+.navbar .btn:hover {
     background-color: #8CC63F;
     color: white;
 }
