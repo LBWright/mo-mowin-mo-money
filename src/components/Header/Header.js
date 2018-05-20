@@ -8,7 +8,7 @@ class Header extends Component {
             <Navbar className="navbar">
               <Navbar.Header>
                 <Navbar.Brand>
-                  <a className="navbar-name" href="/">Mo Mowin, Mo Money</a>
+                  <a className="navbar-name" href="/"><img className="logo" src= {require("./logo.jpg")} alt='logo' /></a>
                 </Navbar.Brand>
               </Navbar.Header>
               <Nav pullRight>
@@ -20,6 +20,9 @@ class Header extends Component {
                 </NavItem>
                 <NavItem eventKey={3} href="/Register">
                   Register
+                </NavItem>
+                <NavItem eventKey={3} href="/Invoice">
+                  Invoice
                 </NavItem>
               </Nav>
               <Navbar.Form pullRight>

@@ -2,6 +2,11 @@
 /*    background-color: #8CC63F;*/
 /*}*/
 
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .navbar Button {
     background-color: #009245;
     color: white;
@@ -11,4 +16,10 @@
 .navbar a:hover Button {
     background-color: #8CC63F;
     color: white;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-top: -14px;
 }
