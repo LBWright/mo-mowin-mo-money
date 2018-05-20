@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header'
 import Register from './components/Register/Register'
 import Splash from './components/Splash/Splash'
-import { Route, Switch, Redirect } from 'react-router-dom';
 import Invoice from './components/Invoice/Invoice.js';
 import SingleLot from './components/SingleLot/SingleLot';
 import Login from './components/Login/Login';
