@@ -1,3 +1,14 @@
 /*.navbar {*/
 /*    background-color: #8CC63F;*/
 /*}*/
+
+.navbar Button {
+    background-color: #009245;
+    color: white;
+    border: none !important;
+}
+
+.navbar a:hover Button {
+    background-color: #8CC63F;
+    color: white;
+}

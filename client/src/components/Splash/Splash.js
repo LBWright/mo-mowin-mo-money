@@ -7,7 +7,7 @@ class Splash extends Component {
         return (
             <div className="splash-page">
                 <div className="splash-img-div">
-                    <h1>Neighborhood Mow Down</h1>
+                    <h1>Neighborhood<br/>Mow Down</h1>
                 </div>
                 <div className="splash-text">
                     <p>The Neighborhood Mow Down Program began as a pilot 

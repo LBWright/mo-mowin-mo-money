@@ -13,12 +13,12 @@ class App extends Component {
     return (
       <div>
       <Header />
-      <Splash />
       <Switch>
         {/* <Route path="/battle" component={ComponentNameHERE} /> */}
         <Route path="/Invoice" component={Invoice} />
         <Route path="/Register" component={Register} />
         <Route path='/lot' component={SingleLot} />
+        <Route path='/' component={Splash} />
       </Switch>
       </div>
     );
