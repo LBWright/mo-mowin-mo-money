@@ -1,0 +1,29 @@
+.splash-img-div {
+    background-image: url(nature-garden-grass-lawn.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.splash-img-div h1 {
+    font-size: 5em;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-family: Montserrat, sans-serif;
+}
+
+.splash-text {
+    
+}
+
+.splash-page h4 {
+    font-style: italic;
+}
