@@ -12,7 +12,7 @@ class Header extends Component {
                 </Navbar.Brand>
               </Navbar.Header>
               <Nav pullRight>
-                <NavItem eventKey={1} href="#">
+                <NavItem eventKey={1} href="/All">
                   All Lots
                 </NavItem>
                 <NavItem eventKey={2} href="/Login">
