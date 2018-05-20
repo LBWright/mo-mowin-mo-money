@@ -14,3 +14,24 @@
 .card-title {
     margin-bottom: 0;
 }
+
+.jumbotron {
+    padding: 0;
+    background:
+        linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+        ),
+        url('http://cdn.abclocal.go.com/content/ktrk/images/cms/automation/vod/927994_1280x720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 5px 10px black;
+}
+
