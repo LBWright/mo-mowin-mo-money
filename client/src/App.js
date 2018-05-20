@@ -16,6 +16,7 @@ class App extends Component {
       <Switch>
         {/* <Route path="/battle" component={ComponentNameHERE} /> */}
         <Route path="/Invoice" component={Invoice} />
+        <Route path="/Register" component={Register} />
       </Switch>
       </div>
     );
