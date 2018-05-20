@@ -1,8 +1,8 @@
 /*.splash-img-div {*/
-/*    background-image: url(nature-garden-grass-lawn.jpg);*/
-/*    background-position: center bottom;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
+    /*background-image: url(nature-garden-grass-lawn.jpg);*/
+    /*background-position: center bottom;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
 /*    height: 400px;*/
 /*    width: 100%;*/
 /*    margin-top: -20px;*/
@@ -22,6 +22,7 @@
 /*}*/
 
 .header-container {
+    margin-top: -20px;
     background-color: #009245;
 }
 
