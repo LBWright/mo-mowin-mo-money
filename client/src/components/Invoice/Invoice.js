@@ -37,7 +37,7 @@ class Invoice extends Component {
           <ControlLabel>
             City(*required)
           </ControlLabel>
-          <Checkbox checked readOnly>
+          <Checkbox>
             Houston
           </Checkbox>
         </FormGroup>
@@ -46,7 +46,7 @@ class Invoice extends Component {
           <ControlLabel>
             State(*required)
           </ControlLabel>
-          <Checkbox checked readOnly>
+          <Checkbox>
             Texas
           </Checkbox>
         </FormGroup>
