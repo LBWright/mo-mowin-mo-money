@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem, FormControl, FormGroup, Button } from 'react-bootstrap';
 import './Header.css';
 
 class Header extends Component {
@@ -22,6 +22,12 @@ class Header extends Component {
                   Register
                 </NavItem>
               </Nav>
+              <Navbar.Form pullRight>
+                <FormGroup>
+                  <FormControl type="text" placeholder="Search Lots" />
+                </FormGroup>{' '}
+                <Button type="submit">Search</Button>
+              </Navbar.Form>
             </Navbar>
         );
     }
